@@ -1,0 +1,8 @@
+# Local source material and reference files
+/blog/incoming/
+/incoming/
+/references/
+/ebook.html
+
+# Project notes, context, workflows, status, and design guides
+*.md

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articles | Natural Synergy</title>
+  <meta name="description" content="Stay up to date with natural health, wellbeing, sound therapy and practical wellness ideas from Natural Synergy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body class="blog-page">
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="brand" href="../index.html" aria-label="Natural Synergy home">
+        <img src="../images/cropped-natural-synergy-logo-2-e1588583826513.png" alt="Natural Synergy">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span><span></span><span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+        <a href="../index.html">Home</a>
+        <a href="index.html" class="is-active" aria-current="page">Articles</a>
+        <a href="../testimonials.html">Testimonials</a>
+        <a href="../contact.html">Contact Us</a>
+        <a href="../faq.html">FAQ's</a>
+      </nav>
+
+      <div class="account-nav">
+        <a href="/login/">Login</a>
+        <a href="/member-dashboard/">Members Area</a>
+      </div>
+
+      <a class="button header-cta" href="../go.html" target="_blank" rel="noopener">Our Program</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog-hero" aria-labelledby="blog-title">
+      <div class="blog-hero__copy">
+        <p class="eyebrow">Natural Synergy</p>
+        <h1 id="blog-title">Blog</h1>
+        <div class="blog-hero__rule" aria-hidden="true"></div>
+        <p>Stay up to date with the very latest and greatest news about everything to do with natural health and well-being.</p>
+      </div>
+      <div class="blog-hero__media" aria-hidden="true"></div>
+    </section>
+
+    <section class="blog-shell" aria-labelledby="articles-title">
+      <div class="blog-layout">
+        <div class="blog-main">
+          <div class="archive-toolbar">
+            <div class="archive-toolbar__heading">
+              <h2 class="eyebrow" id="articles-title">Latest articles</h2>
+              <p class="archive-count" data-archive-count aria-live="polite"></p>
+            </div>
+            <label class="search-field" for="article-search">
+              <span class="sr-only">Search articles</span>
+              <input id="article-search" type="search" placeholder="Search articles" autocomplete="off">
+            </label>
+          </div>
+
+          <div class="article-grid" data-article-grid></div>
+          <noscript><p class="empty-results">Please enable JavaScript to browse and filter the article archive.</p></noscript>
+          <nav class="pagination" data-pagination aria-label="Article pages"></nav>
+        </div>
+
+        <aside class="blog-sidebar" aria-label="Article tools">
+          <section class="sidebar-card sidebar-card--topics">
+            <p class="eyebrow">Browse by topic</p>
+            <h2>Find your next read</h2>
+            <div class="topic-list" data-topic-list></div>
+          </section>
+
+          <div class="blog-sidebar__promotion">
+<section class="article-cta" aria-labelledby="ebook-title">
+          <div class="article-cta__header">
+            <svg class="article-cta__gift" viewBox="0 0 512 512" width="74" height="74" aria-hidden="true" focusable="false" fill="currentColor">
+              <path d="M32 448c0 17.7 14.3 32 32 32h160V320H32v128zm256 32h160c17.7 0 32-14.3 32-32V320H288v160zm192-320h-42.1c6.1-11.9 10.1-25.2 10.1-39.5C448 71.7 408.3 32 359.5 32 317.7 32 290.7 53.4 256 100.6 221.3 53.4 194.3 32 152.5 32 103.7 32 64 71.7 64 120.5c0 14.3 3.9 27.6 10.1 39.5H32c-17.7 0-32 14.3-32 32v80c0 8.8 7.2 16 16 16h208V160h64v128h208c8.8 0 16-7.2 16-16v-80c0-17.7-14.3-32-32-32zm-327.6 0c-21.8 0-39.5-17.7-39.5-39.5S130.6 81 152.4 81c19.6 0 34.1 3.3 85.1 79h-85.1zm207.1 0h-85.1c50.9-75.5 65-79 85.1-79 21.8 0 39.5 17.7 39.5 39.5S381.3 160 359.5 160z"/>
+            </svg>
+            <h2 class="article-cta__label" id="ebook-title"><span>FREE</span><span>EBOOK</span></h2>
+          </div>
+          <img class="article-cta__cover" src="../images/Finger-touch-logo.png" width="300" height="365" alt="Finger touching the Natural Synergy energy symbol" loading="lazy">
+          <h3>SUPERCHARGE YOUR ENERGY LEVELS NATURALLY</h3>
+          <p>DISCOVER 2 POWERFUL HEALING TRICKS TO REVITALIZE THE FOGGIEST BRAIN</p>
+          <a class="button button--orange" href="https://naturalsynergysolution.com/go/" target="_blank" rel="noopener">GET YOUR FREE EBOOK</a>
+        </section>
+<a class="article-sidebar__promo" href="https://naturalsynergysolution.com/go" target="_blank" rel="noopener nofollow">
+          <img src="../images/NS-Family-300x250px-MediumRectangle-High-Quality.jpg" width="300" height="250" alt="Natural Synergy: Relieve pain and ailments fast, without pills. Learn more." loading="lazy">
+        </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav aria-label="Footer navigation">
+      <a href="../affiliates.html">Affiliates</a>
+      <a href="index.html">Articles</a>
+      <a href="../testimonials.html">Testimonials</a>
+      <a href="../contact.html">Contact Us</a>
+      <a href="../go.html" target="_blank" rel="noopener">Our Program</a>
+      <a href="../privacy-policy.html">Privacy Policy</a>
+      <a href="../disclaimer.html">Disclaimer</a>
+    </nav>
+    <p>Copyright (c) Natural Synergy. All rights reserved.</p>
+  </footer>
+
+  <script src="../assets/main.js"></script>
+  <script src="../assets/blog.js"></script>
+</body>
+</html>
